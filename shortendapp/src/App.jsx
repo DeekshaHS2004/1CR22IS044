@@ -51,7 +51,6 @@ function App() {
                 <a
                   href={item.long}
                   target="_blank"
-                  rel="noopener noreferrer"
                   onClick={() => {
                     const copy = [...list];
                     copy[i].clicks += 1;
